@@ -1,3 +1,8 @@
+import {Card} from "./Card"
 export function App() {
-  return <div className="App"></div>;
+  return <div className="app">
+    <div className="app__content">
+      <Card/>
+    </div>
+  </div>;
 }
