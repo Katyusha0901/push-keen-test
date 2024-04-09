@@ -1,4 +1,6 @@
 import { Card } from "./Card";
+import "./App.css";
+
 export function App() {
   return (
     <div className="app">

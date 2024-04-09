@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__content{
+    gap: 60px;
+    height: 822px;
+}
