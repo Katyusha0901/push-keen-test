@@ -1,8 +1,15 @@
 import "./Card.css";
+import { useState } from "react";
 
 export function Card() {
+  const [isActive, setIsActive] = useState(false);
   return (
-    <div className="card">
+    <div
+      className={isActive ? "card card_active" : "card"}
+      onClick={() => {
+        setIsActive(true);
+      }}
+    >
       <div className="card__title">Lorem Ipsum dolor sit</div>
       <div className="card__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

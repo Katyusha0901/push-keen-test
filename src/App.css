@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+
   background-color: #d4d4d4;
   background-image: url("../public/Rectangle 1.svg");
   background-repeat: no-repeat;
@@ -24,4 +25,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 60px;
+}
+
+@media screen and (max-width: 750px) {
+  .app {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
 }
