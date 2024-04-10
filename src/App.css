@@ -1,10 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #d4d4d4;
+  background-image: url("../public/Rectangle 1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .app {
   display: flex;
   flex-direction: row;
+
+  height: 822px;
+  margin-top: 129px;
+  margin-right: 132px;
+  margin-bottom: 129px;
+  margin-left: 132px;
+
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 60px;
-  height: 822px;
 }
-
